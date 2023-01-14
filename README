@@ -1,0 +1,11 @@
+This project aims to identify prominent and influential researchers in various fields. 
+This will be  accomplished by calculating degree and betweenness centrality for a graph 
+that models relationships between researchers, where nodes represent authors and edges 
+connect authors that have published with each other before.
+
+Using the arXiv Dataset, we also plan to group new publications into a field of study by 
+using Word2Vec or some other NLP processes on the Title and Abstract. The model will be 
+trained on existing Titles and Abstracts, with the categories of the publication as the label. 
+Then, we will use centrality methods (degree / betweenness centrality) to show the most 
+prominent figures in the predicted field. This will tell the publisher who to reach out to 
+if they want more information on their field.
